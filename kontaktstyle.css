@@ -35,3 +35,16 @@ a {
 a:hover {
   color: #f7fbff;
 }
+
+@media (max-width: 568px) {
+  p {
+    width: 80%;
+    height: 100vh;
+    font-size: 0.98rem;
+  }
+  body {
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
